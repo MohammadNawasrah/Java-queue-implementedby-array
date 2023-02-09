@@ -22,7 +22,7 @@ public class Main {
         System.out.print("Please enter size of queue :");
 
         int sizeOfQueue = scanner.nextInt();
-        Queue queue = new Queue(sizeOfQueue);
+        QueueInterface queue = new Queue(sizeOfQueue);
         boolean exit = false;
         while (!exit) {
             menu();
